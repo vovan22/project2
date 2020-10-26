@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("/src/fonts/Roboto/Roboto-Bold.ttf");
+    src: url("/src/fonts/Roboto/Roboto-Light.ttf");
+    src: url("/src/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
+@import 'base/mixines.scss';
+@import 'base/varibles.scss';
+
+
+
+@import 'blocks/promo.scss';
+@import 'blocks/button.scss';
+@import 'blocks/label.scss';
+@import 'blocks/about.scss';
+@import 'blocks/choice.scss';
+@import 'blocks/travel.scss';
+@import 'blocks/delivery.scss';
+@import 'blocks/consulatation';
+@import 'blocks/reason.scss';
+@import 'blocks/infotmation.scss';
+@import 'blocks/textarea.scss';
+@import 'blocks/footer.scss';

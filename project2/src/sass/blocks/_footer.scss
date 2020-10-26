@@ -1,0 +1,184 @@
+.footer {
+    position: relative;
+    width: 1647px;
+    height: 500px;
+    background-image: url(../../img/bg/googlemap.png); 
+    
+    
+    &__white {
+        position: absolute;
+        width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+        margin-left: 660px;
+        margin-top: 171px;
+    }
+    &__title {
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__text {
+        width: 227px;
+        height: 103px;
+        margin-top: 4px;
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: left;
+    }
+    &__link {
+        position: absolute;
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: -40px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__block {
+        margin-top: 27px;
+        margin-left: 43px;
+    }
+    &__icon {
+        margin-top: -100px;
+        margin-left: -110px;
+    }
+    &__black {
+        position: absolute; 
+        width: 1647px;
+        height: 201px;
+        background-color: #25333c;
+        margin-top: 500px;
+    }
+    &__icons {
+        margin-top: 24px;
+        margin-left: 320px;
+    }
+    &__logo {
+        color: #ffffff;
+        margin-left: 450px;
+        margin-top: -47px;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: left;
+    }
+    &__subheader {
+        position: absolute;
+        margin-top: 550px;
+        margin-left: 1000px;
+    }
+    &__choice {
+        display: block;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        margin-left: 59px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 0px;
+        text-align: left;
+    }
+    &__phone {
+        display: flex;
+        color: #ffffff;
+        font-family: Roboto;
+        margin-top: 4px;
+        font-size: 19px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        text-decoration: none;
+        line-height: 35px;
+        text-align: right;
+    }
+    &__btn {
+        position: absolute;
+        width: 160px;
+        height: 45px;
+        background-color: #ec644b;
+        margin-top: 540px;
+        margin-left: 1170px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        border-radius: 100px;
+        border: none;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22.04px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__hr {
+        position: absolute;
+        color: grey;
+        margin-top: 21px;
+        width: 1171px;
+        height: 1px;
+        margin-left: -800px;
+        opacity: 0.3;
+    }
+    &__subtext {
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 230px;
+        opacity: 0.6;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17px;
+        text-align: center;
+    }
+    &__polity {
+        position: absolute;
+        margin-top: 650px;
+        color: #ec644b;
+        font-family: Roboto;
+        margin-left: 700px;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__subpolity {
+        position: absolute;
+        margin-top: 650px;
+        opacity: 0.6;
+        margin-left: 1200px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17px;
+    }
+    &__subicon {
+        position: absolute;
+        margin-top: 640px;
+        margin-left: 1310px;
+    }
+}

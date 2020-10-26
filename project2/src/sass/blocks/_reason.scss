@@ -1,0 +1,134 @@
+.reason {
+    position: relative;
+    display: flex;
+    margin-top: 150px;
+    max-width: 1694px;
+    height: 342px;
+    background-image: url(../../img/bg/reason.png);
+    &__icon {
+        margin-top: 53px;
+        margin-left: 770px;
+    }
+    &__title {
+        color: #ffffff;
+        font-family: Roboto;
+        margin-left: 220px;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+    }
+    &__text {
+        width: 924px;
+        height: 44px;
+        color: #ffffff;
+        font-family: Roboto;
+        margin-left: 350px;
+        font-size: 19px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 27px;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 141px;
+        color: #2e2e2e;
+        margin-left: 220px;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__choice {
+        margin-top: 33px;
+    }
+    &__subdescr {
+        width: 300px;
+        height: 27px;
+    }
+    &__choicetitle {
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+    &__subtext {
+        color: #3a3a3a;
+        font-family: Roboto;
+        margin-top: 4px;
+        width: 253px;
+        height: 77px;
+        margin-left: 18px;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__icons {
+        display: flex;
+        justify-content: center;
+    }
+    &__descr {
+        display: grid;
+        grid-template-columns: repeat(4, 253px);
+        margin-left: 220px;
+        gap: 43px;
+    }
+    &__label {
+        margin-top: 150px;
+    }
+    &__labeltitle {
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-left: 60px;
+    }
+    &__labeltext {
+        width: 232px;
+        height: 77px;
+        margin-top: 4px;
+        color: #3a3a3a;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__labelicons {
+        margin-left: 90px;
+    }
+    &__labeltitles {
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        margin-left: 92px;
+    }
+    &__choicelabel {
+        display: grid;
+        grid-template-columns: repeat(3, 290px);
+        margin-left: 400px;
+    }
+}

@@ -1,0 +1,124 @@
+.delivery {
+    margin-top: 53px;
+    &__descr {
+        hr {
+            display: flex;
+            margin-left: 780px;
+            margin-top: 20px;
+            width: 148px;
+            height: 1px;
+            background-color: #ec644b;
+            border: none;
+        }
+    }
+    &__title {
+        color: #2e2e2e;
+        font-family: Roboto;
+        margin-left: 60px;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__text {
+        width: 689px;
+        height: 44px;
+        color: #2e2e2e;
+        margin-left: 500px;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__label {
+        display: grid;
+        grid-template-columns: repeat(4, 265px);
+        margin-left: 240px;
+        gap: 40px;
+        margin-top: 34px;
+        width: 265px;
+        height: 355px;
+        border: 1px solid #e9e9e9;
+        background-color: #ffffff;
+    }
+    &__choice {
+        position: relative;
+        width: 261px;
+        height: 61px;
+        background-color: #25333c;
+    }
+    &__subtitle {
+        position: absolute;
+        margin: -40px;
+        margin-left: 51px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__img {
+        margin-left: 100px;
+        margin-top: 14px;
+    }
+    &__masstitle {
+        color: #2e2e2e;
+        font-family: Roboto;
+        margin-top: 12px;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__massmoney {
+        color: #ec644b;
+        font-size: 28px;
+        margin-left: 50px;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 30px;
+    }
+    &__masstext {
+        color: #2e2e2e;
+        font-family: Roboto;
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__btn {
+        width: 160px;
+        height: 45px;
+        margin-left: 50px;
+        margin-top: 43px;
+        background-color: #ec644b;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 12px;
+        border-radius: 100px;
+        border: none;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22.04px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+}

@@ -1,0 +1,43 @@
+.travel {
+    position: relative;
+    &__world {
+        max-width: 1655px;
+        height: 342px;
+        margin-top: 57px;
+        background-size: cover;
+    }
+    &__icon {
+        position: absolute;
+        margin-left: 790px;
+        margin-top: -280px;
+    }
+    &__descr {
+        position: absolute;
+    }
+    &__title {
+        color: #ffffff;
+        margin-top: -150px;
+        margin-left: 350px;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+    }
+    &__text {
+        width: 984px;
+        height: 46px;
+        color: #ffffff;
+        margin-top: 22px;
+        margin-left: 360px;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 27px;
+        text-align: center;
+    }
+}

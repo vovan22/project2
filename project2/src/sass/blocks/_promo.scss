@@ -1,0 +1,77 @@
+header {
+    position: relative;
+}
+nav {
+    background-image: url(../../img/bg/fon.png);
+    max-width: 1920px;
+    height: 680px;
+    background-size: cover;
+}
+
+.promo {
+    display: flex;
+    justify-content: space-around;
+    width: 614px;
+    margin: 0 auto;
+    padding-right: 100px;
+    margin-top: -96px;
+    
+    &__icon {
+        padding: 23px 320px;
+    }
+    &__menu {
+        list-style-type: none;
+        border-right: 1px dotted grey;
+        padding-right: 19px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__link {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 200;
+        text-decoration: none;
+        line-height: 12px;
+        text-align: left;
+        &:hover {
+            color: red;
+        }
+    }
+    &__subheader {
+        display: block;
+        position: absolute;
+        top: 44px;
+        right: 200px;
+        margin-left: 90px;
+    }
+    &__title {
+        display: block;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        margin-left: 58px;
+        margin-top: 15px;
+        line-height: 0px;
+        text-align: left;
+       
+    }
+    &__phone {
+        display: flex;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        margin-right: 160px;
+        font-style: normal;
+        letter-spacing: normal;
+        text-decoration: none;
+        line-height: 35px;
+        text-align: right;
+    }
+}
+

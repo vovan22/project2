@@ -1,0 +1,49 @@
+.about {
+    &__info {
+        display: grid;
+        grid-template-columns: repeat(2,480px);
+        column-gap: 99px;
+    }
+    &__title {
+        margin-top: 58px;
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    
+    &__subinfo {
+        position: relative;
+        width: 409px; 
+        margin-top: 36px;
+        margin-left: 394px;
+    }
+    
+    &__subtitle {
+        color: #ec644b;
+        font-family: "Roboto - Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__text {
+        font-family: "Roboto Light";
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+    &__foto {
+        display: flex;
+        position: absolute;
+        margin-left: -84px;
+    }
+}

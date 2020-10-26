@@ -1,0 +1,106 @@
+.textarea {
+    position: relative;
+    max-width: 1690px;
+    height: 438px;
+    margin-top: 65px;
+    background-image: url(../../img/bg/jet.png);
+    &__bg {
+        position: absolute;
+        width: 896px;
+        height: 78px;
+        background-color: #25333c;
+        margin-left: 380px;
+        margin-top: 62px;
+    }
+    &__descr {
+        position: absolute;
+    }
+    &__title {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        margin-top: 30px;
+        margin-left: 750px;
+        margin-top: 65px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 51px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        margin-left: 750px;
+        margin-top: -20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 51px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__opacity {
+        position: absolute;
+        width: 896px;
+        height: 297px;
+        margin-left: 380px;
+        margin-top: 140px;
+        background-color: #ffffff;
+        opacity: 0.7;
+    }
+    &__form {
+        position: absolute;
+        margin-left: 400px;
+        margin-top: 200px;
+    }
+    &__input {
+        input {
+            width: 248px;
+            height: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff;
+            border-radius: 100px;
+            padding-left: 28px;
+            margin-right: 6px;
+        }
+    }
+    &__text {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__area {
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 4px;
+        textarea  {
+            width: 793px;
+            height: 61px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            resize: none;
+            border-radius: 10px;
+            padding: 18px 25px;
+        }
+    }
+    &__btn {
+        position: absolute;
+        width: 180px;
+        height: 45px;
+        background-color: #ec644b;
+        border-radius: 100px;
+        border: none;
+        margin-top: 380px;
+        margin-left: 740px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 22.04px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
